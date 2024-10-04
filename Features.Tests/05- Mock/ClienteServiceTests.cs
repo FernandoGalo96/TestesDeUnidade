@@ -6,11 +6,11 @@ using Moq;
 namespace Features.Tests._05__Mock;
 
 [Collection(nameof(ClienteBogusCollection))]
-public class ClienteServiceTests
+public class ClienteServiceAutoMockerTests
 {
     private readonly ClienteTestsBogusFixture _clienteTestsBogus;
 
-    public ClienteServiceTests(ClienteTestsBogusFixture clienteTestsBogus)
+    public ClienteServiceAutoMockerTests(ClienteTestsBogusFixture clienteTestsBogus)
     {
         _clienteTestsBogus = clienteTestsBogus;
     }
